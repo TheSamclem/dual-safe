@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+   
+}
+
+.navbar {
+    background-color: black !important;
+    border-bottom: 1px solid rgb(62, 62, 62);
+
+}
+
+.nav-link:hover {
+    color: red rgb(79, 79, 79) !important;
+    border-bottom: 1px solid lightgray;
+    transition: .7s;
+}
+
+
+
+.req-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.req-btn:hover {
+    background-color: rgb(92, 92, 92) !important;
+    color: black !important;
+    transform: translateY(-0.4rem);
+    transition: .4s;
+}
+
+/* Header Style  */
+.header {
+    background-color: black;
+    color: white;
+}
+
+
+.header h3 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Black Han Sans', sans-serif;
+    line-height: 50px;
+}
+
+.header p {
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.statement {
+    background-color: black;
+    color: white;
+}
+
+.statement p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* Headter Style Ends */
+
+.parallax {
+    height: 45vh;
+    background-color: black;
+    position: relative;
+}
+
+.parallax-effect {
+    height: 45vh;
+    background-image: url('/img/connected.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.parallax-2 {
+    height: 45vh;
+    background-color: black;
+    position: relative;
+}
+
+.parallax-effect-2 {
+    height: 45vh;
+    background-image: url('/img/threat-hunter.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+
+.unveiling p {
+    font-size: 18px;
+    line-height: 40px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.localize p {
+    font-size: 23px;
+    line-height: 40px;
+}
+
+.unveiling h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.comprehensive h4{
+    color: white;
+    font-size: 35px;
+    line-height: 10px;
+}
+
+.comprehensive p{
+    color: white;
+    text-align: justify;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+
+
+
+.five-pillar i {
+    color: red;
+}
+
+.five-pillar h3 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.five-pillar h3 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+
+.five-pillar p{
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dial-group i {
+    color: blue;
+}
+
+.caputring h3 {
+    font-size: 40px;
+}
+
+.caputring p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+
+
+
+.footer {
+    background-color: black;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+
+
+
+
+.socials a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.socials #linkedin:hover {
+    color: #0077b5 !important;
+}
+
+.socials #instagram:hover {
+    color: #E1306C !important;
+}
+
+.socials #twitter:hover {
+    color: grey !important;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .monitoring-header {
+        height: 80vh;
+        background-color: black;
+        position: relative;
+    }
+    
+    .monitoring-header img {
+        height: 80vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        opacity: 0.6;
+        
+    }
+
+
+    .monitoring-text  h1, span {
+        font-size: 30px !important;
+       text-align: left;
+       line-height: 40px !important;
+    }
+
+    .monitoring-text  p {
+        font-size: 15px !important;
+        line-height: 20px !important;
+    }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+   
+}
